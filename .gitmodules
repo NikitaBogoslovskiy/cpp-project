@@ -1,0 +1,7 @@
+[submodule "libzippp"]
+	path = libzippp
+	url = https://github.com/ctabin/libzippp.git
+	branch = master
+[submodule "app/src/main/cpp/dependencies/libzippp"]
+	path = app/src/main/cpp/dependencies/libzippp
+	url = https://github.com/ctabin/libzippp.git
