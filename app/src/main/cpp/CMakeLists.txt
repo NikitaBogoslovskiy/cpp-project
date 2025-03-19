@@ -6,10 +6,10 @@ add_library(${CMAKE_PROJECT_NAME} SHARED
         # List C/C++ source files with relative paths to this CMakeLists.txt.
         native-lib.cpp)
 
-add_subdirectory(dependencies/libzippp)
+add_subdirectory(dependencies/libzip)
 
 target_link_libraries(${CMAKE_PROJECT_NAME}
         android
         log
-        libzippp
+        libzip::zip
 )

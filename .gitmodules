@@ -1,3 +1,4 @@
-[submodule "app/src/main/cpp/dependencies/libzippp"]
-	path = app/src/main/cpp/dependencies/libzippp
-	url = https://github.com/ctabin/libzippp.git
+
+[submodule "app/src/main/cpp/dependencies/libzip"]
+	path = app/src/main/cpp/dependencies/libzip
+	url = https://github.com/nih-at/libzip
